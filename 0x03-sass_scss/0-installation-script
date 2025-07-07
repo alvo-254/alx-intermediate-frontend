@@ -1,0 +1,14 @@
+
+
+# Step 1: Verify that Node.js is installed
+node -v
+npm -v
+
+# Step 2: Initialize a new Node.js project (if not already done)
+npm init -y
+
+# Step 3: Install a specific version of SASS (v3.7.4)
+npm install sass@3.7.4
+
+# Step 4: Verify that SASS was installed successfully
+npx sass --version
